@@ -13,7 +13,7 @@ import racingcar.dao.PlayerResultDao;
 public class PlayerResultConsoleDaoImpl implements PlayerResultDao {
 
     private final List<PlayerResult> playerResults = new ArrayList<>();
-    private int id = 1;
+    private int id = 2;
 
     @Override
     public void insertPlayerResult(final PlayerResult playerResult) {
